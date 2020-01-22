@@ -16,6 +16,7 @@
 		3FC1EAA523D85ED4000DF87D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC1EAA323D85ED4000DF87D /* Main.storyboard */; };
 		3FC1EAA723D85ED6000DF87D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FC1EAA623D85ED6000DF87D /* Assets.xcassets */; };
 		3FC1EAAA23D85ED6000DF87D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC1EAA823D85ED6000DF87D /* LaunchScreen.storyboard */; };
+		3FC1EAB023D87BCC000DF87D /* Randomizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC1EAAF23D87BCC000DF87D /* Randomizer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		3FC1EAA623D85ED6000DF87D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FC1EAA923D85ED6000DF87D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FC1EAAB23D85ED6000DF87D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FC1EAAF23D87BCC000DF87D /* Randomizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Randomizer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		3FC1EA7F23D85C9E000DF87D /* Randomizer */ = {
 			isa = PBXGroup;
 			children = (
+				3FC1EAAF23D87BCC000DF87D /* Randomizer.swift */,
 				3FC1EA8023D85C9E000DF87D /* Randomizer.h */,
 				3FC1EA8123D85C9E000DF87D /* Info.plist */,
 			);
@@ -202,6 +205,7 @@
 				TargetAttributes = {
 					3FC1EA7C23D85C9E000DF87D = {
 						CreatedOnToolsVersion = 11.3;
+						LastSwiftMigration = 1130;
 					};
 					3FC1EA8523D85C9F000DF87D = {
 						CreatedOnToolsVersion = 11.3;
@@ -263,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FC1EAB023D87BCC000DF87D /* Randomizer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +442,7 @@
 		3FC1EA9223D85C9F000DF87D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 9SSK6XBQCD;
@@ -453,6 +459,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = maksym.Randomizer;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -461,6 +468,7 @@
 		3FC1EA9323D85C9F000DF87D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 9SSK6XBQCD;
@@ -485,6 +493,7 @@
 		3FC1EA9523D85C9F000DF87D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9SSK6XBQCD;
 				INFOPLIST_FILE = RandomizerTests/Info.plist;
@@ -503,6 +512,7 @@
 		3FC1EA9623D85C9F000DF87D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9SSK6XBQCD;
 				INFOPLIST_FILE = RandomizerTests/Info.plist;
