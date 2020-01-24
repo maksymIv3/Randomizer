@@ -11,7 +11,6 @@
 		3FC1EA8C23D85C9F000DF87D /* RandomizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC1EA8B23D85C9F000DF87D /* RandomizerTests.swift */; };
 		3FC1EA8E23D85C9F000DF87D /* Randomizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FC1EA8023D85C9E000DF87D /* Randomizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3FC1EA9E23D85ED4000DF87D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC1EA9D23D85ED4000DF87D /* AppDelegate.swift */; };
-		3FC1EAA023D85ED4000DF87D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC1EA9F23D85ED4000DF87D /* SceneDelegate.swift */; };
 		3FC1EAA223D85ED4000DF87D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC1EAA123D85ED4000DF87D /* ViewController.swift */; };
 		3FC1EAA523D85ED4000DF87D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC1EAA323D85ED4000DF87D /* Main.storyboard */; };
 		3FC1EAA723D85ED6000DF87D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FC1EAA623D85ED6000DF87D /* Assets.xcassets */; };
@@ -38,7 +37,6 @@
 		3FC1EA8D23D85C9F000DF87D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FC1EA9B23D85ED4000DF87D /* RandomizerExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomizerExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FC1EA9D23D85ED4000DF87D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3FC1EA9F23D85ED4000DF87D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3FC1EAA123D85ED4000DF87D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3FC1EAA423D85ED4000DF87D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3FC1EAA623D85ED6000DF87D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -116,7 +114,6 @@
 			isa = PBXGroup;
 			children = (
 				3FC1EA9D23D85ED4000DF87D /* AppDelegate.swift */,
-				3FC1EA9F23D85ED4000DF87D /* SceneDelegate.swift */,
 				3FC1EAA123D85ED4000DF87D /* ViewController.swift */,
 				3FC1EAA323D85ED4000DF87D /* Main.storyboard */,
 				3FC1EAA623D85ED6000DF87D /* Assets.xcassets */,
@@ -285,7 +282,6 @@
 			files = (
 				3FC1EAA223D85ED4000DF87D /* ViewController.swift in Sources */,
 				3FC1EA9E23D85ED4000DF87D /* AppDelegate.swift in Sources */,
-				3FC1EAA023D85ED4000DF87D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
