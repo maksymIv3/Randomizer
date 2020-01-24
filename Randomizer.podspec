@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
   spec.swift_version = "4.2"
 
   spec.name         = "Randomizer"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.4"
   spec.summary      = "A CocoaPods library written in Swift"
 
   spec.description  = <<-DESC
@@ -17,5 +17,5 @@ This CocoaPods library helps you perform calculation.
   spec.author       = { "Maksym Ivanyk" => "maksym.ivanyk@rolique.io" }
 
   spec.source        = { :git => "https://github.com/maksymIv3/Randomizer.git", :tag => "#{spec.version}" }
-  spec.source_files  = "Randomizer/**/*.{h,m,swift}"
+  spec.source_files  = "Sources/Randomizer/**/*.{h,m,swift}"
 end
