@@ -9,13 +9,14 @@
 import Foundation
 
 public final class Randomizer {
-    let name = "Randomizer"
+    public static let shared = Randomizer()
+    private init() { }
     
-    public func add(a: Int, b: Int) -> Int {
-        return a + b
+    public func getRandomNumber(from: Int, to: Int) -> Int {
+        return Int.random(in: from ..< to)
     }
     
-    public func sub(a: Int, b: Int) -> Int {
-        return a - b
+    public func getRandomElement<T>(array: [T]) -> T {
+        return array[getRandomNumber(from: 0, to: array.count)]
     }
 }

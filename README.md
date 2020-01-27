@@ -36,3 +36,21 @@ dependencies: [
     .package(url: "https://github.com/maksymIv3/Randomizer.git", from: "0.0.4")
 ]
 ```
+
+## Usage
+
+### Basic usage
+import module:
+```swift
+import Randomizer
+```
+get random Int:
+
+```swift
+Randomizer.shared.getRandomNumber(from: 0, to: 10)
+```
+
+get random element of array:
+```swift
+Randomizer.shared.getRandomElement(array: [10, 14, -1, 2, 50])
+```

@@ -10,19 +10,17 @@ import XCTest
 @testable import Randomizer
 
 class RandomizerTests: XCTestCase {
-
     var randomizer: Randomizer!
 
     override func setUp() {
-        randomizer = Randomizer()
+        randomizer = Randomizer.shared
     }
 
-    func testAdd() {
-        XCTAssertEqual(randomizer.add(a: 1, b: 1), 2)
+    func testRandomNumber() {
+        XCTAssertNoThrow(randomizer.getRandomNumber(from: 0, to: 40))
     }
     
-    func testSub() {
-        XCTAssertEqual(randomizer.sub(a: 2, b: 1), 1)
+    func testRandowElement() {
+        XCTAssertNoThrow(randomizer.getRandomElement(array: [10, 14, -1, 2, 50]))
     }
-
 }
